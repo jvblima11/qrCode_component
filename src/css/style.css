@@ -1,0 +1,39 @@
+body {
+  background-color: var(--Light_gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  width: 20rem;
+  background-color: var(--White);
+  padding: 15px;
+  border-radius: 0.75rem;
+}
+
+.qr_code {
+  border-radius: 0.75rem;
+}
+
+.title {
+  color: var(--Dark_blue);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  text-align: center;
+}
+
+.paragraph {
+  color: var(--Grayish_blue);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* if you need a mobile responsive layout */
+/* @media (max-width: 425px){
+} */
